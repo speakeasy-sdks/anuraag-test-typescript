@@ -39,3 +39,11 @@ Based on:
 - Speakeasy CLI 1.30.0 (2.26.3) https://github.com/speakeasy-api/speakeasy
 ### Releases
 - [NPM v1.1.3] https://www.npmjs.com/package/test-petstore/v/1.1.3 - .
+
+## 2023-05-12 01:33:11
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 https://prod.speakeasyapi.dev/v1/apis/test-petstore/version/1.0.0/schema/download
+- Speakeasy CLI 1.30.1 (2.26.4) https://github.com/speakeasy-api/speakeasy
+### Releases
+- [NPM v1.1.4] https://www.npmjs.com/package/test-petstore/v/1.1.4 - .
