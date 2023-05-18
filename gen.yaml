@@ -2,14 +2,14 @@ configVersion: 1.0.0
 management:
   docChecksum: 04a6c3553df8d6c54308dd8d3785dcdf
   docVersion: 1.0.0
-  speakeasyVersion: 1.33.2
-  generationVersion: 2.29.0
+  speakeasyVersion: 1.34.0
+  generationVersion: 2.30.0
 generation:
   sdkClassName: SDK
   singleTagPerOp: false
   telemetryEnabled: false
 typescript:
-  version: 1.4.0
+  version: 1.5.0
   author: anuraag-test
   maxMethodParams: 0
   packageName: test-petstore
