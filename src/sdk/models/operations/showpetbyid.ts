@@ -7,34 +7,32 @@ import * as shared from "../shared";
 import { AxiosResponse } from "axios";
 
 export class ShowPetByIdRequest extends SpeakeasyBase {
-  /**
-   * The id of the pet to retrieve
-   */
-  @SpeakeasyMetadata({
-    data: "pathParam, style=simple;explode=false;name=petId",
-  })
-  petId: string;
+    /**
+     * The id of the pet to retrieve
+     */
+    @SpeakeasyMetadata({ data: "pathParam, style=simple;explode=false;name=petId" })
+    petId: string;
 }
 
 export class ShowPetByIdResponse extends SpeakeasyBase {
-  @SpeakeasyMetadata()
-  contentType: string;
+    @SpeakeasyMetadata()
+    contentType: string;
 
-  /**
-   * unexpected error
-   */
-  @SpeakeasyMetadata()
-  error?: shared.ErrorT;
+    /**
+     * unexpected error
+     */
+    @SpeakeasyMetadata()
+    error?: shared.ErrorT;
 
-  /**
-   * Expected response to a valid request
-   */
-  @SpeakeasyMetadata()
-  pet?: shared.Pet;
+    /**
+     * Expected response to a valid request
+     */
+    @SpeakeasyMetadata()
+    pet?: shared.Pet;
 
-  @SpeakeasyMetadata()
-  statusCode: number;
+    @SpeakeasyMetadata()
+    statusCode: number;
 
-  @SpeakeasyMetadata()
-  rawResponse?: AxiosResponse;
+    @SpeakeasyMetadata()
+    rawResponse?: AxiosResponse;
 }

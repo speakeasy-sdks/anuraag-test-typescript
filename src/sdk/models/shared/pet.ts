@@ -9,15 +9,15 @@ import { Expose } from "class-transformer";
  * Expected response to a valid request
  */
 export class Pet extends SpeakeasyBase {
-  @SpeakeasyMetadata()
-  @Expose({ name: "id" })
-  id: number;
+    @SpeakeasyMetadata()
+    @Expose({ name: "id" })
+    id: number;
 
-  @SpeakeasyMetadata()
-  @Expose({ name: "name" })
-  name: string;
+    @SpeakeasyMetadata()
+    @Expose({ name: "name" })
+    name: string;
 
-  @SpeakeasyMetadata()
-  @Expose({ name: "tag" })
-  tag?: string;
+    @SpeakeasyMetadata()
+    @Expose({ name: "tag" })
+    tag?: string;
 }
