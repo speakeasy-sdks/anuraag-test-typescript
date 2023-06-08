@@ -1,6 +1,6 @@
 {
   "name": "test-petstore",
-  "version": "1.9.1",
+  "version": "1.10.0",
   "author": "anuraag-test",
   "scripts": {
     "prepare": "tsc --build"
